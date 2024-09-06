@@ -1,6 +1,6 @@
-<h1 align="center">DineBot : Streamlining Food Orders with NLP</h1>
+<h1 align="center">DietBot : Streamlining Food Orders with NLP</h1>
 
-Welcome to the **DineBot** project! This repository contains the code and resources for building an end-to-end intelligent chatbot designed to streamline food orders for culinary websites. The project leverages Dialogflow for natural language understanding, FastAPI for backend services, and MySQL for order management.
+Welcome to the **DietBot** project! This repository contains the code and resources for building an end-to-end intelligent chatbot designed to streamline food orders for culinary websites. The project leverages Dialogflow for natural language understanding, FastAPI for backend services, and MySQL for order management.
 
 ## Table of Contents
 
@@ -31,7 +31,7 @@ In this project, we configured a chatbot using Dialogflow for natural language u
 ## Directory Structure
 
 ```
-DineBot/
+DietBot/
 ├── backend/              # Contains Python FastAPI backend code
 ├── db/                   # Contains the dump of the MySQL database
 ├── dialogflow_assets/    # Contains training phrases and intents for Dialogflow
@@ -43,8 +43,8 @@ DineBot/
 First, clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/DineBot.git
-cd DineBot
+git clone https://github.com/yourusername/DietBot.git
+cd DietBot
 ```
 
 Next, install the necessary Python modules:
@@ -66,15 +66,15 @@ To start the FastAPI backend server, follow these steps:
 
 1. Navigate to the `backend` directory in your command prompt:
 
-    ```bash
-    cd backend
-    ```
+   ```bash
+   cd backend
+   ```
 
 2. Run the following command to start the server:
 
-    ```bash
-    uvicorn main:app --reload
-    ```
+   ```bash
+   uvicorn main:app --reload
+   ```
 
 ## Ngrok for HTTPS Tunneling
 
@@ -84,15 +84,15 @@ To expose your local server to the internet using Ngrok, follow these steps:
 2. Extract the zip file and place `ngrok` in a folder.
 3. Open the command prompt, navigate to that folder, and run this command:
 
-    ```bash
-    ngrok http 8000
-    ```
+   ```bash
+   ngrok http 8000
+   ```
 
 **Note:** Ngrok sessions can expire, so you may need to restart the session if you see a session expired message.
 
 ## Usage
 
-Once the backend server and Ngrok are set up, you can interact with the DineBot through your food website. The chatbot will handle order placement and retrieval seamlessly.
+Once the backend server and Ngrok are set up, you can interact with the DietBot through your food website. The chatbot will handle order placement and retrieval seamlessly.
 
 ## Future Scope
 
@@ -103,7 +103,7 @@ Once the backend server and Ngrok are set up, you can interact with the DineBot 
 
 ## Contributing
 
-We welcome contributions to enhance DineBot! To contribute, please follow these steps:
+We welcome contributions to enhance DietBot! To contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature-branch-name`.
@@ -117,7 +117,7 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Conclusion
 
-DineBot aims to revolutionize the way users place food orders online, offering a seamless and efficient experience through advanced NLP and robust backend services. We look forward to your contributions and feedback to make this project even better.
+DietBot aims to revolutionize the way users place food orders online, offering a seamless and efficient experience through advanced NLP and robust backend services. We look forward to your contributions and feedback to make this project even better.
 
 ## References
 
